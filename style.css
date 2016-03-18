@@ -1,0 +1,148 @@
+/******* NAV *******/
+html {
+	position: relative;
+  	min-height: 100%;
+}
+.fa-sun-o:before, .fa-bolt:before {
+    color: #FED96A;
+    font-size: 25px;
+}
+.fa-bolt {
+	padding-bottom: 5px;
+}
+.navbar {
+	margin-bottom: 0 !important;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: transparent;
+}
+.weather-wrap, footer {
+	height: 100%;
+}
+.navbar-header a {
+	color: #000000 !important;
+}
+/******* HOME *******/
+.list-group {
+	float: right;
+}
+.list-group:nth-child(1) {
+	padding-left: 15px;
+}
+.list-group {
+	text-align: center;
+}
+.list-group-item {
+	-webkit-box-shadow: 0px 1px 10px 1px #ccc;
+	-moz-box-shadow: 0px 1px 10px 1px #ccc;
+	box-shadow: 0px 1px 10px 1px #ccc;
+}
+.btn-primary {
+	background: #F27242 !important;
+	border-color: #F27242 !important;
+}
+.headerContainer {
+	text-align: center;
+	padding-top: 5%;
+	border-top: #F27242 solid 4px;
+}
+.form-control {
+	margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+/******* FORECAST PAGE *******/
+.bg-primary {
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: #486482;
+    color: #fff !important;
+}
+.homeImg a {
+	color: #F27242;
+}
+.homeImg a:hover {
+	text-decoration: none;
+	list-style: none;
+	font-weight: 500;
+}
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: #486482;
+}
+/******* FOOTER *******/
+.blog-header {
+	text-align: center;
+}
+.footer {
+	position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #f5f5f5;
+    padding-top: 15px;
+}
+footer .list-group {
+	margin-bottom: 0;
+}
+.list-group-item {
+	border: transparent;
+}
+.btn-default {
+    color: #fff;
+    background-color: #486482;
+    border: transparent;
+    margin-top: 10px;
+}
+small {
+	line-height: 0.0 !important;
+}
+.fa-bolt {
+	padding-right: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-brand {
+		padding-top: 30px;
+	}
+	.navbar .container {
+		text-align: center;
+	}
+	.navbar-header {
+		margin-left: auto;
+    	margin-right: auto;
+    	display: inline-block;
+	}
+	.footer {
+		height: 100%;
+	}
+	.footer .container {
+		padding-bottom: 18px;
+	}
+	.col-xs-6 {
+    	width: 33%;
+	}
+	footer .blog-header {
+		padding-bottom: 15px;
+	}
+}
+@media only screen and (max-width: 560px) {
+	.col-xs-6 {
+    	width: 100%;
+    	padding-bottom: 25px;
+	}
+	.footer .list-group {
+		padding-right: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
