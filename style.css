@@ -102,7 +102,7 @@ small {
 .fa-bolt {
 	padding-right: 5px;
 }
-.btn:focus {
+.btn:focus, .btn:active {
     outline: 0;
 }
 /******* Media Queries *******/
